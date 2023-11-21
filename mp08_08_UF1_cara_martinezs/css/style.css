@@ -1,0 +1,367 @@
+*{
+    position: relative;
+    margin: auto;
+
+}
+.contenedor{
+    transform: scale();
+}
+.cap{
+    width: 475px;
+    height: 610px;
+    background-color: #c69b7c;
+    border-radius: 60% 60% 90% 90%;
+    top: 150px;
+   
+}
+
+.cap:after{
+    content: "";
+    display: block;
+    width: 600px;
+    height: 610px;
+    background-color: #412607;
+    border-radius: 90% 90% 90% 90%;
+    top: -110px;
+    position: absolute;
+    z-index: -100;
+    left: -63px;
+      
+}
+
+.pel{
+    height: 800px;
+    width: 425px;
+    background-color: #412607;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    right: 115px;
+    z-index: -10;
+    top: -60px;    
+}
+.dret{
+    height: 800px;
+    width: 425px;
+    background-color: #412607;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    left: 115px;
+    z-index: -10;
+    top: -860px;
+    
+}
+
+
+.mechones {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background-color: ;
+}
+
+
+.ext{
+    height: 600px;
+    width: 642px;
+    background-color: #412607;
+    top: 300px;
+    right: -80px;
+    border-radius: 120px 120px 0 0;
+    display: ;
+    position: absolute;
+    z-index: -1;
+}
+
+.ext1{
+    width: 600px;
+    height: 600px;
+    background-color: ;
+    margin: 0 0 0 0px;
+    border-radius: 50%;  
+    top: -25px;
+    transform: otate(90deg);
+    box-shadow: -50px -50px 0px #412607;
+    position: absolute;
+   
+}
+.ext2{
+    width: 600px;
+    height: 600px;
+    background-color: ;
+    margin: 0 0 0 0px;
+    border-radius: 50%;  
+    top: -25px;
+    box-shadow: -50px -50px 0px #412607;
+    position: absolute;
+    transform: scaleX(-1) rotate(360deg);
+    right: 10px;
+   
+}
+
+.front{
+   
+}
+
+.celles .esq{
+    width: 200px;
+    height: 250px;
+    background-color: rgb(54, 28, 6);
+    clip-path: polygon(41% 25%, 100% 29%, 100% 40%, 41% 35%, 10% 39%);
+    /*transform: rotateY('angle'); rotar al lado contrario*/
+    float: left;
+    
+}
+
+.celles {
+    position: absolute;
+    height: 150px;
+    overflow: hidden;
+    top: 50px;
+    left: 0;
+    right: 0;
+}
+
+.celles .dre{
+    width: 220px;
+    height: 250px;
+    background-color: rgb(54, 28, 6); 
+    transform: rotateY(150deg);
+    clip-path: polygon(41% 25%, 100% 29%, 100% 40%, 41% 35%, 10% 39%);
+    float: right;
+}
+
+/*.ull{
+    height: 80px;
+    background-color: orange;
+    border-radius: 150px 150px 0px 0px;
+    
+}*/
+
+/*.ulls .ull{
+    margin-left: 100px;
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(68, 36, 9);
+    border-radius: 100%; 
+}*/
+
+.ulls .ull{
+    width: 120px;
+    height: 120px;
+    border-radius: 100% 0 100% 0;
+    border-top: solid 4px rgb(68, 36, 9);
+    background-color: white;
+    transform: rotate(45deg);
+    margin-left: 85px;
+    float: left;
+    right: 20px;
+    top: -1450px;
+    /*border-bottom: rgb(68, 36, 9) 4px;*/   
+}
+
+.ull:hover{
+    background-color: #c69b7c;
+    transition: transform 1s;
+    
+    
+}
+
+.pupilas .esq{
+    margin-left: 100px;
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(68, 36, 9);
+    border-radius: 100%; 
+    left: 0px;
+    top: -1540px;
+}
+
+.pupilas .dre{
+    margin-left: 100px;
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(68, 36, 9);
+    border-radius: 100%; 
+    left: 60px;
+    top: -1540px;
+  
+    
+
+}
+.esqu{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #000000;
+    top: 15px;
+}
+
+.dreta{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #000000;
+    top: 15px;
+}
+
+.nas1 {
+    /*Derecha*/
+    height: 15px;
+	  width: 30px;
+	  border-radius: 50% / 100% 100% 0 0; 
+    background-color: rgb(68, 36, 9);;
+    transform: rotate(90deg);
+    left: 44px;
+    top: -115px;
+    
+ 
+}
+.nas2{
+    /*Derecha*/
+    height: 15px;
+	  width: 30px;
+	  border-radius: 50% / 100% 100% 0 0; 
+    background-color: #c69b7c;
+    transform: rotate(90deg);
+    float: left;
+    left: -38px;
+    top: -1229px;
+ }
+
+.nas3{
+    height: 15px;
+	width: 30px;
+    border-radius: 50% / 100% 100% 0 0; 
+    background-color: rgb(68, 36, 9);
+    transform: scaleX(-1) rotate(90deg);
+    margin-top: -70px;
+    left: -45px;
+    top: -60px;
+    
+}
+
+.nas4{
+    height: 15px;
+	width: 30px;
+	border-radius: 50% / 100% 100% 0 0; 
+    background-color: #c69b7c;
+    transform: scaleX(-1) rotate(90deg);
+    margin-top: -50px;
+    left: -40px;
+    top: -25px;
+   
+   
+   
+}
+.nas5{
+    height: 50px;
+    width: 50px;
+    margin-top: 30px;
+    border-radius: 40% 0;  
+    transform:  scaleY(55%) rotate(45deg);
+    background-color: rgb(68, 36, 9);
+    margin-top: -50px;
+    top: 0px;
+ }
+ .nas6{
+    height: 50px;
+    width: 50px;
+    border-radius: 40% 0;  
+    transform: scaleY(55%) rotate(45deg);
+    background-color: #c69b7c;
+    margin-top: -110px;
+    top: 55px;   
+ }
+
+.boca{
+    
+    margin: auto;
+    width: 120px; 
+    height: 120px;
+    margin-top: 30px;
+    background-color:rgb(192, 45, 70);
+    border-radius: 60% 0;
+    transform: scaleY(60%) rotate(45deg);
+    box-shadow: 0 0 2px 2px brown;
+    background: rgb(192, 45, 70);
+    top: -80px;
+    
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid  #c69b7c;
+    transform: rotate(180deg);
+    top: -210px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.linia{
+    width: 165px;
+    height: 1px;
+    background-color: brown;
+    top: -190px;
+   
+}
+
+
+/*
+position: relative;
+width: 200px;
+height: 300px;
+background-color: #ffc107;
+clip-path: ellipse(100% 100% at 50% 0%);
+}
+
+.pel::before {
+content: "";
+position: absolute;
+top: 100%;
+left: 50%;
+margin-left: -25px;
+width: 50px;
+height: 150px;
+background-color: #ffc107;
+clip-path: ellipse(50% 50% at 50% 0%);*/
+
+.prueba{
+  
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 50px 0 0 0 / 50px 0 0 0
+
+}
+
+.cuello{
+  width: 200px;
+  height: 200px;
+  background-color: #bd9172;
+  top:  700px;
+  position: absolute;
+  right: 510px;
+  z-index: -1;
+}
+.cuerpo{
+    height: 600px;
+    width: 742px;
+    background-color: #333;
+    top: 850px;
+    right: 240px;
+    border-radius: 200px 200px 0 0;
+    position: absolute;
+  
+}
+
+.cuerpo:hover{
+    background-color: rgb(172, 94, 159);
+    transition: 2s;
+}

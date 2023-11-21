@@ -1,0 +1,62 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #222;
+}
+.div{
+   
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffff
+}
+#logotipo{
+   
+    height: 50px;
+    background-color: black;
+}
+li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#facebook{
+
+    background-position: 400px 0;
+}
+.contenidodocu{
+    position: relative;
+    float: left;
+}
+.doc1{
+    height: 260px;
+    width: 175px;
+    background-image: url(../img/1982Koyaanisqatsi.jpg);
+    border-radius: 5px;
+    background-repeat: no-repeat;
+   
+}
+.doc2{
+    height: 260px;
+    width: 175px;
+    background-image: url(../img/2009ArtAndCopy.jpg);
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    
+}
+.doc3{
+    height: 260px;
+    width: 175px;
+    background-image: url(../img/2011LaDoctrinaDeShock.jpg);
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+.doc4{
+    height: 260px;
+    width: 175px;
+    background-image: url(../img/2011LaDoctrinaDeShock.jpg);
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
