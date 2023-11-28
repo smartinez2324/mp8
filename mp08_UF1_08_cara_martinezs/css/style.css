@@ -1,6 +1,6 @@
 *{
     position: relative;
-    margin: auto;
+    margin: 0 auto;
 
 }
 .contenedor{
@@ -345,15 +345,17 @@ clip-path: ellipse(50% 50% at 50% 0%);*/
   background-color: #bd9172;
   top:  700px;
   position: absolute;
-  right: 510px;
+  left: 1000px;
   z-index: -1;
+  margin: 0 auto;
 }
 .cuerpo{
     height: 600px;
     width: 742px;
+    margin: 0 auto;
     background-color: #333;
     top: 850px;
-    right: 240px;
+   left: 720px;
     border-radius: 200px 200px 0 0;
     position: absolute;
   

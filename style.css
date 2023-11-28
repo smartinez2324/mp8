@@ -1,8 +1,12 @@
+
+
 body{
    background: rgb(255, 231, 238);
 }
 
-ul a{
+
+/*UF*/
+/*ul a{
     display: block;
     width: 5rem;
     height: 5rem;
@@ -13,14 +17,10 @@ ul a{
     margin: 2rem;
     text-align: center;
     
-}
-
+}*/
+/*Menu*/
 a:hover{
     background: rgb(252, 163, 235);
-}
-
-h1{
-    text-align: center;
 }
 
 .menu{
@@ -38,25 +38,34 @@ body div{
 div > .classe{
 
 }
+nav{
+    top:-20px;
+    position: absolute;
+    left:0;
+    right:0;
+	margin:20px auto;
+    width: 100%;
+}
 .navegacio{
-    width:100%;
 	background:#000;
 	position:relative;
     margin: auto;
+    
 }
 .primernivell{
-    background: plum;
+   
     color: white;
     margin: 0.25rem;
     display: inline-block;
     padding: 0.25rem;
     height: 2rem;
+    width: 5rem;
     position: relative;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .primernivell:hover{
-    background: rgb(95, 35, 95);
+    background: plum;
   
 }
 .primernivell:hover > .secundari{
@@ -78,9 +87,12 @@ div > .classe{
     top: 2rem;
     font-size: 0.85rem;
     height: 2rem;
+    width: 4rem;
     border-bottom: solid white 1px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .segonnivell:hover{
     background: rgb(197, 156, 235);
     
 }
+

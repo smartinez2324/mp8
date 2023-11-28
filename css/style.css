@@ -1,0 +1,21 @@
+body{
+    background: rgb(255, 231, 238);
+ }
+ 
+ 
+ /*UF*/
+ ul a{
+     display: block;
+     width: 5rem;
+     height: 5rem;
+     background:  rgb(232, 128, 255);
+     border-radius: 10%;
+     float: left;
+     text-decoration: none;
+     margin: 2rem;
+     text-align: center;
+     
+ }
+ a:hover{
+    background: rgb(252, 163, 235);
+}
