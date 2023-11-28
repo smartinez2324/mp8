@@ -6,7 +6,7 @@ body{
 .ficha{
     
     width: 175px;
-    background-color:;
+   
     margin: 5px;
     overflow: hidden;
     float: left;
@@ -19,7 +19,6 @@ body{
 }
 
 .ficha h3{
-    background-color:;
     height: 30px;
     margin: 0;
     font-size: 14px;
@@ -27,7 +26,6 @@ body{
     margin: 0;
 }
 .ficha h4{
-    background-color: ;
     width: 50%;
     float: left;
     font-size: 11px;
@@ -35,7 +33,6 @@ body{
     margin: 0;
 }
 .ficha h5{
-    background-color:;
     width: 50%;
     font-size: 11px;
     color: #CCC;
@@ -44,7 +41,7 @@ body{
 }
 
 h2{
-    background-color:;
+   
     color: #FFF;
     font-size: 22px;
     clear: both;
@@ -122,4 +119,10 @@ li{
     -moz-filter: grayscale(50%); 
     filter: grayscale(100%);
 
+}
+
+a{
+    display: block;
+    clear: both;
+    text-align: center;
 }

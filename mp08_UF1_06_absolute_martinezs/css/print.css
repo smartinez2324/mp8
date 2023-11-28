@@ -43,3 +43,9 @@ img{
     left: 135mm;
     top: 196mm;
 }
+
+a{
+    display: block;
+    clear: both;
+    text-align: center;
+}

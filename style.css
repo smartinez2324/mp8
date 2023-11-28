@@ -1,0 +1,86 @@
+body{
+   background: rgb(255, 231, 238);
+}
+
+ul a{
+    display: block;
+    width: 5rem;
+    height: 5rem;
+    background:  rgb(232, 128, 255);
+    border-radius: 10%;
+    float: left;
+    text-decoration: none;
+    margin: 2rem;
+    text-align: center;
+    
+}
+
+a:hover{
+    background: rgb(252, 163, 235);
+}
+
+h1{
+    text-align: center;
+}
+
+.menu{
+   
+}
+
+*, *:after, *:before{
+    margin:0;
+    padding: 0;
+}
+
+body div{
+
+}
+div > .classe{
+
+}
+.navegacio{
+    width:100%;
+	background:#000;
+	position:relative;
+    margin: auto;
+}
+.primernivell{
+    background: plum;
+    color: white;
+    margin: 0.25rem;
+    display: inline-block;
+    padding: 0.25rem;
+    height: 2rem;
+    position: relative;
+
+}
+
+.primernivell:hover{
+    background: rgb(95, 35, 95);
+  
+}
+.primernivell:hover > .secundari{
+    display: block;
+   
+}
+.secundari{
+    display: block;
+    background: red;
+    position: absolute;
+    left: 0;
+    top: 2.5rem;
+    display: none;
+   
+}
+.segonnivell{
+    background: blueviolet;
+    display: block;
+    top: 2rem;
+    font-size: 0.85rem;
+    height: 2rem;
+    border-bottom: solid white 1px;
+}
+.segonnivell:hover{
+    background: rgb(197, 156, 235);
+    
+}

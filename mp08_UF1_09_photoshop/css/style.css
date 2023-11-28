@@ -89,3 +89,9 @@ body::before{
     filter: sepia()
 
 }
+
+a{
+    display: block;
+    clear: both;
+    text-align: center;
+}
