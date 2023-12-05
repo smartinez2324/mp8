@@ -1,21 +1,81 @@
 body{
     background: rgb(255, 231, 238);
+    margin: 0;
+    padding: 0;
  }
- 
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    
+ }
  
  /*UF*/
  ul a{
-     display: block;
-     width: 5rem;
-     height: 5rem;
-     background:  rgb(232, 128, 255);
-     border-radius: 10%;
-     float: left;
-     text-decoration: none;
-     margin: 2rem;
-     text-align: center;
+    display: block;
+    /*width: 320px;
+    height: 320px;
+    background:  rgb(139, 128, 255);*/
+    border-radius: 10%;
+    float: left;
+    text-decoration: none;
+    margin: 2rem;
+    text-align: center;
      
  }
+ a{
+    height: 350px;
+    width: 350px;
+    background-color: plum;
+    border-radius: 10%;
+    box-shadow: 16px 14px 20px #0000008c;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+ }
+
  a:hover{
     background: rgb(252, 163, 235);
 }
+
+ /*.practica:hover{
+    background: rgb(252, 163, 235);
+}
+
+
+
+.practica::before{
+    content: "";
+    position: absolute;
+    height: 320px;
+    width: 320px;
+    background-image: conic-gradient(rgb(225, 0, 255) 20deg, transparent 120deg);
+    animation: rotar 2s linear infinite;
+}
+
+@keyframes rotar{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-360deg);
+    }
+}
+
+.practica::after{
+    content: "";
+    position: absolute;
+    height: 240px;
+    width: 190px;
+    background-color: plum;
+    border-radius: 10%;
+    box-shadow: inset 16px 14px 20px #0000008c;;
+}
+
+*/
