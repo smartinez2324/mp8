@@ -126,3 +126,16 @@ a{
     clear: both;
     text-align: center;
 }
+
+button{
+    position: relative;
+    top: 350px;
+    padding: 0;
+    margin: 0;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    color: grey;
+    width: 200px;
+    height: 50px;
+}

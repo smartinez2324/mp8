@@ -340,24 +340,24 @@ clip-path: ellipse(50% 50% at 50% 0%);*/
 }
 
 .cuello{
+  position: absolute;
   width: 200px;
   height: 200px;
   background-color: #bd9172;
   top:  700px;
-  position: absolute;
-  left: 1000px;
+  left: 1030px;
   z-index: -1;
   margin: 0 auto;
 }
 .cuerpo{
+    position: absolute;
     height: 600px;
     width: 742px;
     margin: 0 auto;
     background-color: #333;
     top: 850px;
-   left: 720px;
+    left: 755px;
     border-radius: 200px 200px 0 0;
-    position: absolute;
   
 }
 
@@ -366,8 +366,17 @@ clip-path: ellipse(50% 50% at 50% 0%);*/
     transition: 2s;
 }
 
-a{
+
+
+button{
+    position: relative;
+    top: 650px;
+    padding: 0;
+    margin: 0;
     display: block;
-    clear: both;
-    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    color: grey;
+    width: 200px;
+    height: 50px;
 }

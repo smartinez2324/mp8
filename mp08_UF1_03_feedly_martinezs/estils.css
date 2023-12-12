@@ -135,3 +135,15 @@ a{
     text-align: center;
     font-size: 125px;
 }
+button{
+    position: relative;
+    top: 50px;
+    padding: 0;
+    margin: 0;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    color: grey;
+    width: 200px;
+    height: 50px;
+}
