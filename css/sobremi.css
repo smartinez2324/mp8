@@ -9,13 +9,28 @@ a{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
+p {
+    width: 320px;
+    display: -webkit-box;
+    white-space: normal;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: ;
+    overflow: hidden;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    
+    
+}
 
 img{
-    width: 25%;
-    height: 25%;
     position: relative;
     float: right;
-    right: 20rem;
-    top: 15rem;
+    right: 100px;
+    top: -8rem;
+    
+    
+}
+h1{
+    text-align: center;
 }
