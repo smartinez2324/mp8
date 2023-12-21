@@ -2,7 +2,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
   }
   html,body{
@@ -24,13 +23,13 @@
     float: left;
     margin: 0 5px;
     overflow: hidden;
-    background: plum;
     border-radius: 50px;
     box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
     transition: all 0.3s ease-out;
   }
+
   .wrapper .button:hover{
-    width: 250px;
+    width: 300px;
   }
   .wrapper .button .icon{
     display: inline-block;
@@ -41,7 +40,6 @@
     transition: all 0.3s ease-out;
   }
   .icon{
-    background-color: red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,13 +54,11 @@
     display: inline;
     text-align: center;
     font-size: 20px;
-    background-color: blue;
     font-weight: 500;
     line-height: 60px;
     margin-left: 10px;
     transition: all 0.3s ease-out;
-  
-
-
+    clear: both;
+    top: -10px;
 }
     
