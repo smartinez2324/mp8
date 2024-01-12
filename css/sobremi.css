@@ -9,7 +9,27 @@ a{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-p{
-    float: right;
+p {
+    width: 320px;
+    position: relative;
+    overflow: hidden;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    float: left;
+    left: 10rem;
+    top: 5rem;
+    
+}
 
+img{
+    position: relative;
+    float: right;
+    right: 10rem;
+    top: 5rem;
+    
+    
+}
+h1{
+    text-align: center;
 }
