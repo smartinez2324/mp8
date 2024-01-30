@@ -15,7 +15,50 @@
 
     <link rel="stylesheet" href="css/style.css">
     <title>Responsive</title>
+   
     <style>
+        @font-face {
+        font-family: 'Fantasia';
+    
+        src: url('fonts/Namecat.otf') format('eot'),
+        url('fonts/Namecat.woff2') format('woff2'),
+        url('fonts/Namecat.woff') format('woff'),
+        url('fonts/Namecat.svg#Namecat') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+
+}
+
+.progres{
+  height: 1rem;
+  width: 100%;
+  background: rgb(111, 13, 134);
+  position: fixed;
+  top:0;
+  left:0;
+  rigth:0;
+  z-index: 1000;
+  scale: 0 1;
+  transform-origin: left;
+  animation: jacobo linear;
+  animation-timeline: scroll();
+}
+
+@keyframes jacobo{
+  to {
+    scale:1 1;
+  }
+}
+
+
+        body{
+            font-size: 2rem;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-family: Fantasia;
+        }
         /*disseny mobil*/
             @media screen and (max-width:480px) {
                 body{
@@ -31,12 +74,36 @@
         /*disseny escriptori*/
             @media screen and (min-width:1025px) {
                 body{
-                    background: orange;
+                    background: rgb(247, 184, 255);
                 }
             }
+
+            
     </style>
 </head>
 <body>
+    <h1>APP</h1>
+    <div class="progres"></div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolorum aliquid pariatur quas voluptate. Sequi qui, distinctio,
+         molestias necessitatibus inventore unde delectus, corrupti laudantium reprehenderit animi nulla placeat nostrum repellat!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolorum aliquid pariatur quas voluptate. Sequi qui, distinctio,
+         molestias necessitatibus inventore unde delectus, corrupti laudantium reprehenderit animi nulla placeat nostrum repellat!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolorum aliquid pariatur quas voluptate. Sequi qui, distinctio,
+        molestias necessitatibus inventore unde delectus, corrupti laudantium reprehenderit animi nulla placeat nostrum repellat!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolorum aliquid pariatur quas voluptate. Sequi qui, distinctio,
+        molestias necessitatibus inventore unde delectus, corrupti laudantium reprehenderit animi nulla placeat nostrum repellat!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolorum aliquid pariatur quas voluptate. Sequi qui, distinctio,
+        molestias necessitatibus inventore unde delectus, corrupti laudantium reprehenderit animi nulla placeat nostrum repellat!</p>
     
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolorum aliquid pariatur quas voluptate. Sequi qui, distinctio,
+        molestias necessitatibus inventore unde delectus, corrupti laudantium reprehenderit animi nulla placeat nostrum repellat!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolorum aliquid pariatur quas voluptate. Sequi qui, distinctio,
+            molestias necessitatibus inventore unde delectus, corrupti laudantium reprehenderit animi nulla placeat nostrum repellat!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolorum aliquid pariatur quas voluptate. Sequi qui, distinctio,
+        molestias necessitatibus inventore unde delectus, corrupti laudantium reprehenderit animi nulla placeat nostrum repellat!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolorum aliquid pariatur quas voluptate. Sequi qui, distinctio,
+        molestias necessitatibus inventore unde delectus, corrupti laudantium reprehenderit animi nulla placeat nostrum repellat!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolorum aliquid pariatur quas voluptate. Sequi qui, distinctio,
+        molestias necessitatibus inventore unde delectus, corrupti laudantium reprehenderit animi nulla placeat nostrum repellat!</p>
 </body>
 </html>
