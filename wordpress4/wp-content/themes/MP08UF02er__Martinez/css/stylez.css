@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    background-image: linear-gradient(to top right, white 50%, pink 50%);
+}
+h1{
+    text-align: center;
+    font-size: 4em;
+    font-family: helvetica,Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 1em;
+    font-family: helvetica,Arial, Helvetica, sans-serif;
+}
+.cap{
+    height: 589px;
+    width: 960px;
+    float: none;
+    overflow: hidden;
+    margin: 0 auto;
+}
+#coche{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor{
+    height: 780px;
+    width: 960px;
+    float: none;
+    overflow: hidden;
+    padding: 10px;
+    margin: 0 auto;
+}
+.casillas{
+    height: 200px;
+    width: 300px;
+    float: left; 
+}
+
+.peu{
+    height: 220px;
+    width: 960px;
+    float: none;
+    overflow: hidden;
+    margin: 0 auto;
+}
+#cars{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#coches{
+    animation-duration: 1s;
+  animation-name: mianimacion;
+}
+
+@keyframes mianimacion {
+
+    0% {
+       
+    }
+  
+  
+    100%{
+        
+    }
+    
+
+}
