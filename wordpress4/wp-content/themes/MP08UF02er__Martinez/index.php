@@ -15,63 +15,63 @@
     <link rel="apple-touch-icon" href="img/icon.png">
 
     <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_url'); ?>" />
-	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_url'); ?>/css/style.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_url'); ?>/css/stylez.css" />
 	
 </head>
 <body>
     <h1>Carsandfilms</h1>
     <div class="cap">
-        <img id="coches" src= "<?php bloginfo('template_url'); ?> img/ani/rider.png" alt="">
+        <img id="coches" src= "<?php bloginfo('template_url'); ?>/img/ani/rider.png" alt="">
     </div>
 
     <div class="contenedor">
         <div class="casillas">
-            <img id="coches" src="<?php bloginfo('template_url'); ?> img/small/small_pulp.jpg" alt="">
+            <img id="coches" src="<?php bloginfo('template_url'); ?>/img/small/small_pulp.jpg" alt="">
         <p>Pulp Fiction</p></div>
 
         <div class="casillas">
-            <img id="coches" src="<?php bloginfo('template_url'); ?> img/small/small_taxi.jpg" alt="">
+            <img id="coches" src="<?php bloginfo('template_url'); ?>/img/small/small_taxi.jpg" alt="">
             <p>Pulp Fiction</p>
         </div>
 
         <div class="casillas">
-            <img id="coches" src="<?php bloginfo('template_url'); ?> img/small/small_bond.jpg" alt="">
+            <img id="coches" src="<?php bloginfo('template_url'); ?>/img/small/small_bond.jpg" alt="">
             <p>Taxi Driver</p>
         </div>
 
         <div class="casillas">
-            <img id="coches" src="<?php bloginfo('template_url'); ?> img/small/small_ghost.jpg" alt="">
+            <img id="coches" src="<?php bloginfo('template_url'); ?>/img/small/small_ghost.jpg" alt="">
             <p>Goldfinger</p>
         </div>
 
         <div class="casillas">
-            <img id="coches" src="<?php bloginfo('template_url'); ?> img/small/small_bean.jpg" alt="">
+            <img id="coches" src="<?php bloginfo('template_url'); ?>/img/small/small_bean.jpg" alt="">
             <p>Ghost Buster</p>
         </div>
 
         <div class="casillas">
-            <img id="coches" src="<?php bloginfo('template_url'); ?> img/small/small_back.jpg" alt="">
+            <img id="coches" src="<?php bloginfo('template_url'); ?>/img/small/small_back.jpg" alt="">
             <p>Mr. Bean</p>
         </div>
 
         <div class="casillas">
-            <img src="<?php bloginfo('template_url'); ?> img/small/small_rider.jpg" alt="">
+            <img src="<?php bloginfo('template_url'); ?>/img/small/small_rider.jpg" alt="">
             <p>Back to the Future</p>
         </div>
 
         <div class="casillas">
-            <img src="<?php bloginfo('template_url'); ?> img/small/small_team.jpg" alt="">
+            <img src="<?php bloginfo('template_url'); ?>/img/small/small_team.jpg" alt="">
             <p>Knight Rider</p>
         </div>
 
         <div class="casillas">
-            <img src="<?php bloginfo('template_url'); ?> img/small/small_break.jpg" alt="">
+            <img src="<?php bloginfo('template_url'); ?>/img/small/small_break.jpg" alt="">
             <p>The A-Team</p>
         </div>
     </div>
 
     <div class="peu">
-        <img id="cars" src="<?php bloginfo('template_url'); ?> img/logo_carsandfilms.png" alt="">
+        <img id="cars" src="<?php bloginfo('template_url'); ?>/img/logo_carsandfilms.png" alt="">
     </div>
 
     
