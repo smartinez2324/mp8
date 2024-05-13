@@ -1,0 +1,253 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+ 
+}
+
+   /*disseny mobil*/
+   @media screen and (max-width:480px) {
+    body{
+        background: red;
+    }
+}
+/*disseny mobil apaisat*/
+@media screen and (min-width:481px) and (max-width:1024px) {
+    body{
+        background: skyblue;
+    }
+}
+/*disseny escriptori*/
+@media screen and (min-width:1025px) {
+    body{
+        background: white;
+    }
+}
+.menu{
+    font-size: 1rem;
+    line-height: 1.2rem;
+    margin: 0px auto;
+    margin-left: 600px;
+}
+.bringtion{
+    background: white;
+    
+}
+
+.bringtion img{
+    width: 100%;
+}
+.empresa{
+    height: 600px;
+    width: 100%;
+    background: #75c5c2;
+    overflow: hidden;
+  
+}
+p{
+    height: 350px;
+    width: 700px;
+    color: white;
+    margin: 15px auto;
+    margin-top: 50px;
+    overflow: hidden;
+    float: left;
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#contenedor{
+    height: 350px;
+    width: 600px;
+    background: rgb(239, 177, 254);
+    margin: 15px auto;
+    margin-top: 50px;
+    overflow: hidden;
+    float: right;
+    margin-right: 50px;
+}
+
+.nuestros_servicios{
+    height: 600px;
+    background: white;
+    overflow: hidden;
+}
+
+#contenedor2{
+    height: 300px;
+    width: 80%;
+    background: wite;
+    margin: 30px auto;
+    margin-top: 150px;
+   
+}
+#contenedor3{
+    height: 300px;
+    width: 60%;
+    background: whte;
+    margin: 30px auto;
+    margin-top: 150px;
+   
+}
+#contenedor4{
+    height: 300px;
+    width: 60%;
+    background: #f2f2f2;
+    margin: 30px auto;
+    margin-top: 150px;
+   
+}
+#titol{
+
+    color: black;
+}
+img{
+    max-width: 100%;
+    width: 400px;
+    
+}
+#cartel{
+    float: left;
+    width: 250px;
+}
+
+#triptico{
+    margin: 0px auto;  
+    float: left;
+    margin-left: 150px;
+    
+}
+
+#tarjeta{
+    float: right;
+}
+#libro{
+    width: 200px;
+    margin: 0px auto;  
+    margin-left: 100px;
+}
+
+#revista{
+    width: 500px;
+    float: right;
+}
+#web{
+    
+   
+}
+
+#app{
+    width: 150px;
+    margin: 0px auto;  
+    float: left;
+    margin-left: 250px;
+}
+
+#piso1{
+    width: 20%;
+    height: 300px;
+    background: ;
+    margin: 0px auto;
+    float: left;
+}
+
+#piso2{
+    width: 20%;
+    height: 300px;
+    background: ;
+    margin: 0px auto;  
+    float: left;
+    margin-left: 120px;   
+}
+
+#piso3{
+    width: 20%;
+    height: 300px;
+    background: ;
+    margin: 0px auto;  
+    float: left;
+    margin-left: 120px;
+}
+
+#piso4{
+    width: 20%;
+    height: 300px;
+    background: ;
+    margin: 0px auto;
+    float: right;
+}
+
+.publicitat{
+    height: 600px;
+    background: #f8d4e6;
+    overflow: hidden;
+}
+
+.editorial{
+    height: 600px;
+    background: #c7e6ef;
+    overflow: hidden;
+}
+
+.web{
+    height: 600px;
+    background: rgb(255, 170, 170);
+    overflow: hidden;
+}
+.packaging{
+    height: 600px;
+    background: #f2f2f2;
+    overflow: hidden;
+}
+
+.contacto{
+    height: 200px;
+    background: rgb(242, 217, 138);
+}
+
+#pinterets, #instagram, #mail, #facebook{
+    width: 50px;
+    height: 50px;
+    background: red;
+    margin-top: 50px;
+    padding: 1rem;
+}
+
+ul{
+    list-style: none;
+    overflow: hidden;
+    margin: 0;
+}
+ul li{
+    display: block;
+    margin: 0;
+
+}
+
+ul li a{
+    display: block;
+    float: left;
+    margin: 0rem auto;
+    padding: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    color: #75c5c2;
+    font-family: Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin: auto;
+    font-size: 70px;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+#quefem{
+    color: #75c5c2;
+}
+
+
+
+
