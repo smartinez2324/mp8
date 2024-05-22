@@ -1,0 +1,658 @@
+body{
+    margin: 0;
+    padding: 0;
+   font-family: helvetica;
+    
+}
+
+   /*disseny mobil*/ 
+ @media screen and (max-width:480px) {
+    body{
+       
+    }
+}
+/*disseny mobil apaisat*/
+@media screen and (min-width:481px) and (max-width:1024px) {
+    body{
+      
+    }
+}
+/*disseny escriptori*/
+@media screen and (min-width:1025px) {
+    body{
+       
+    }
+}
+
+ /*font titol*/
+ @font-face {
+    font-family: DJR;
+    src: url(../fonts/FormaDJRDisplay-Bold.woff) format('woff');
+    src: url(../fonts/FormaDJRDisplay-Bold.svg) format('svg');
+    src: url(../fonts/FormaDJRDisplay-Bold.woff2) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/*font text*/
+@font-face {
+    font-family: helvetica;
+    src: url(../fonts/Helvetica.woff) format('woff');
+    src: url(../fonts/Helvetica.svg) format('svg');
+    src: url(../fonts/Helvetica.woff2) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.menu{
+    font-size: 1rem;
+    line-height: 1.2rem;
+    margin: 0px auto;
+    margin-left: 600px;
+}
+ul{
+    list-style: none;
+    overflow: hidden;
+    margin: 0;
+}
+ul li{
+    display: block;
+    margin: 0;
+
+}
+
+ul li a{
+    display: block;
+    float: left;
+    margin: 0rem auto;
+    padding: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    color: #FDC62B;
+    font-family: Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin: auto;
+    font-size: 80px;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-family: DJR;
+    color: black;
+}
+#quefem{
+    color: #000000;
+}
+
+.bringtion{
+    background-color:; 
+
+}
+
+.bringtion img{
+    width: 100%;
+}
+.empresa{
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+  
+}
+#quisom{
+    color: black;
+    text-align: left;
+    margin-top: px;
+}
+.fondop{
+    height: 400px;
+    width: 550px;
+    margin-top: 0px;
+    overflow: hidden;
+    float: right;
+    background: #db358b;
+    margin-left: 100px;
+
+}
+#barra{
+    width: 100px;
+    height: 100px;
+    background: #db358b;
+}
+p{
+    font-size: 14px;
+    font-family: helvetica;
+    color: black;
+    width: 470px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+#contenedor{
+    height: 400px;
+    width:550px;
+    background: rgb(239, 177, 254);
+    overflow: hidden;
+    float: left;
+    left: 0;
+    background-image: url(../img/Bringtion\ fondo.png);
+    background-size: cover;
+    margin-left: 300px;
+}
+
+.nuestros_servicios{
+    height: 600px;
+    background: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+#contenedor2{
+    height: 300px;
+    width: 80%;
+    margin: 30px auto;
+    margin-top: 150px;
+   
+}
+#contenedor3{
+    height: 450px;
+    width: 90%;
+    background: white;
+    margin: 10px auto;
+    margin-top: 10px;
+   
+}
+#contenedor4{
+    height: 300px;
+    width: 60%;
+    background: white;
+    margin: 30px auto;
+    margin-top: 150px;
+   
+}
+#titol{
+
+    color: black;
+}
+img{
+    max-width: 100%;
+    width: 400px;
+    
+}
+#cartel{
+    float: left;
+    width: 250px;
+}
+
+#triptico{
+    margin: 0px auto;  
+    float: left;
+    margin-left: 150px;
+    
+}
+
+#tarjeta{
+    float: right;
+}
+
+#libro{
+    width: 200px;
+    margin: 0px auto;  
+    margin-left: 100px;
+}
+
+#revista{
+    width: 500px;
+    float: right;
+}
+#web{
+    
+   
+}
+
+#app{
+    width: 150px;
+    margin: 0px auto;  
+    float: left;
+    margin-left: 250px;
+}
+
+#piso1{
+    width: 100%;
+    height: 60%;
+    margin: 0px auto;
+    float: left;
+    margin-top: -100px;
+    margin-bottom: 10px;
+}
+
+#piso2{
+    width: 100%;
+    height: 60%;
+    margin: 0px auto;  
+    margin-left:0px;   
+    float: left;
+}
+
+#subpiso, #subpiso3{
+    height: 90%;
+    width: 45%;
+    float: left;
+    margin: 10px;
+  }
+#subpiso2, #subpiso4{
+    height: 90%;
+    float: right;
+    width: 45%;
+    margin: 10px;
+  }
+  #subpiso{
+    background: #F431C6;
+   }
+ #subpiso2{
+     background: #3354F2;
+    }
+ #subpiso3{
+     background: #3AB8BB;
+    }
+#subpiso4{
+     background: #FFDA3E;
+    }
+  #icono{
+    width: 158px;
+    height: 150px;
+    margin: 0 auto;
+    float: left;
+    background-image: url(../img/packaging-05.png);
+    background-size: cover;
+  }
+  #icono2{
+    width: 158px;
+    height: 150px;
+    margin: 0 auto;
+    float: left;
+    background-image: url(../img/web-06.png);
+    background-size: cover;
+  }
+  #icono3{
+    width: 158px;
+    height: 150px;
+    margin: 0 auto;
+    float: left;
+    background-image: url(../img/publicidad.png);
+    background-size: cover;
+  }
+  #icono4{
+    width: 158px;
+    height: 150px;
+    margin: 0 auto;
+    float: left;
+    background-image: url(../img/editorial-04.png);
+    background-size: cover;
+  }
+#textpackging, #textpublicitat{
+    width: 350px;
+    height: 100px;
+    margin: 30px auto;
+    float: left;
+    margin-left: 20px;
+    font-size: 14px;
+    font-family: helvetica;
+    color: white;
+}
+
+#textweb, #texteditorial{
+    width: 350px;
+    height: 100px;
+    margin: 30px auto;
+    float: left;
+    margin-left: 20px;
+    font-size: 14px;
+    font-family: helvetica;
+    color: white;
+}
+
+.packaging{
+    height: 600px;
+    background: white;
+    overflow: hidden;
+}
+#titolpackaging{
+    color: #D9368B;
+    width: 100%;
+    background: #F8D6E8;
+}
+
+#textprincipal{
+    width: 150px;
+    height: 400px;
+    margin: 10px;
+    float: left;
+}
+#mockup{
+   width: 500px;
+   height: 400px;
+   float: left;
+   margin: 10px;
+   margin-left: 50px;
+   
+}
+
+#aura{
+    width: 210px;
+    height: 200px;
+    margin: 0 auto;
+    float: left;
+    background-image: url(../img/Aura.png);
+    background-size: cover;
+}
+#tarjeta{
+    float: right;
+    margin-top: -220px;
+}
+
+#estructural{
+    width: 500px;
+    height: 350px;
+    margin: 0 auto;
+    float: right;
+    margin-top: -250px;
+    
+}
+#caja{
+    width: 250px;
+    height: 300px;
+    margin: 0 auto;
+    float: left;
+    margin-top: -50px;
+}
+#textdescripcio{
+    width: 600px;
+    height: 400px;
+
+    float: right;
+    margin: 10px;
+}
+
+.publicitat{
+    height: 600px;
+    background: #ffffff;
+    overflow: hidden;
+}
+#subpiso5{
+    height: 90%;
+    width: 55%;
+    float: left;
+    margin: 10px;
+   
+   
+}
+#subpiso6{
+    height: 90%;
+    float: right;
+    width: 40%;
+    margin: 10px;
+  }
+
+  #textdescrip{
+    width: 50%;
+    height: 30%;
+    float: left;
+    margin: 0;
+    top: 0;
+    margin-bottom: 10px;
+    color: white;
+  }
+  #cartel{
+    width: 40%;
+    height: 100%;
+    float: right;
+  }
+
+  #triptic{
+    height: 65%;
+    float: left;
+     width: 55%;
+    top: 200px;
+    margin: 10px;
+  }
+
+  .web{
+    height: 600px;
+    background: white;
+    overflow: hidden;
+}
+#contenedor4{
+    height: 550px;
+    width: 95%;
+    background: ;
+    margin: 10px auto;
+    margin-top: 25px;
+   
+}
+#subpiso7{
+    height: 90%;
+    width: 35%;
+    float: left;
+    margin: 10px;
+   
+}
+
+#titoll{
+    width: 200px;
+    height: 100px;
+   
+    margin: 0px;
+    float: left;
+    margin-top: 200px;
+}
+#textdesenvolupament{
+    width: 300px;
+    height:200px;
+   
+    margin: 0px;
+    float: right;
+    margin-top: 150px;
+}
+#subpiso8{
+    height: 90%;
+    float: right;
+    width: 60%;
+    margin: 0 auto;
+    background: #3354F2;
+  }
+
+  #movil{
+    width: 100px;
+    height:100px;
+    
+    margin: 0px;
+    float: right;
+    margin-top: 100px;
+  
+}
+
+#imatge{
+    width: 600px;
+    height: 350px;
+   
+    margin: 10px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 50px;
+    background-image: url(../img/app_pantalla.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#textpagines{
+    width: 200px;
+    height: 200px;
+    
+    margin: 0px;
+    float: right;
+    margin-top: 150px;
+}
+
+.editorial{
+    height: 600px;
+    background: white;
+    overflow: hidden;
+    
+}
+
+#contenedor5{
+    height: 550px;
+    width: 95%;
+    
+    margin: 10px auto;
+    margin-top: 25px;
+   
+}
+
+#subpiso9{
+    width: 700px;
+    height: 500px;
+    background: #F4F3DC;
+    margin: 0px;
+    float: left;
+}
+#texttitol{
+    width: 400px;
+    height: 100px;
+    color: #FDC62B;
+    margin: 0px;
+    float: left;
+}
+#textdescripc{
+    height: 330px;
+    width: 250px;
+    
+    margin: 0;
+    margin-top: 50px;
+    float: left;
+    margin-right: 250px;
+}
+#imgrevista{
+    width: 400px;
+    height: 250px;
+   
+    margin: 0px;
+    float: right;
+    margin-top: -300px;
+    background-image: url(../img/revista\ sin\ fondo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#subpiso10{
+    width: 700px;
+    height:500px;
+    
+    margin: 0px;
+    float: right;
+}
+#llibre{
+    width: 200px;
+    height:250px;
+   
+    margin: 0;
+    float: left;
+    margin: 20px;
+    background-image: url(../img/9866173_225.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+#textdescripci{
+    width: 400px;
+    height: 250px;
+    
+    margin: 20px;
+    float: right;
+}
+#periodic{
+    width: 250px;
+    height: 190px;
+    
+    float: left;
+    margin-right: 250px;
+    margin-left: 110px;
+    background-image: url(../img/mockup\ peridoico\ sin\ fondo.png);
+    background-size: cover;
+    
+}
+
+.imatge img{
+    width: 100%;
+}
+
+.contacto{
+    background: #DB358B;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#instagram, #facebook, #pinterets, #telefono, #ubicacio, #mail{
+    width: 75px;
+    height: 75px;
+    margin: 10px;
+    right: 50px;
+    clear: both;
+    margin: 0 auto;
+}
+
+.left {
+    width: 50%;
+    float:left;  
+    margin: 0 auto;
+
+}
+
+.right {
+    width: 50%;
+    float: right;  
+    margin: 0 auto;
+}
+
+.contacto p{
+    width: 100px;
+    float: right;
+    margin-right: 70px;
+  
+}
+#textredes{
+    margin-top: 30px;
+    
+}
+#textfacebook{
+    margin-top: 30px;
+    
+}
+#textpinterest{
+    margin-top: 30px;
+    
+}
+a{
+    text-decoration: none;
+}
+
+
+
+#ubicacio{
+    clear: both;
+}
+#mail{
+    clear: both;
+    
+}
+
+.socials {
+    background: ;
+    width: 600px;
+    margin: 0 auto;
+}
+
+
+#textempresa{
+    color: white;
+}
