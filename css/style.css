@@ -1,20 +1,117 @@
-body{
+body {
     background:#f7f2f0;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
  }
+
+a {
+    text-decoration: none;
+}
  
+nav {
+    top:-20px;
+    position: absolute;
+    left:0;
+    right:0;
+	margin:20px auto;
+    width: 100%;
+    height: ;
+}
+
+nav a {
+    color: black;
+    display: block;
+
+}
+
+nav .navegacio {
+	position:relative;
+    margin: auto; 
+}
+
+nav .navegacio .primernivell {
+    color: black;
+    margin: 0.25rem;
+    display: inline-block;
+    padding: 0.25rem;
+    height: 2rem;
+    width: 5rem;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+}
+
+nav .navegacio .primernivell:hover{
+    background: #ffffff; 
+}
+
+nav .navegacio .primernivell .secundari {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 2.5rem;
+}
+
+nav .navegacio .primernivell:hover > .secundari{
+    display:block;
+}
+
+
+
+nav .navegacio .primernivell .secundari .segonnivell {
+    background: rgb(255, 246, 229);
+    display: none;
+    top: 2rem;
+    font-size: 0.85rem;
+    height: 2rem;
+    width: 4rem;
+    border-bottom: solid white 1px;
+}
+
+nav .navegacio .primernivell .secundari .segonnivell:hover{
+    background: rgb(255, 255, 255); 
+    display: none;
+}
+ hr{
+    width: 100%;
+    height: 0,5rem;
+    background: rgb(0, 0, 0);
+}
+
+
 
 h1{
     color: black;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    
+    font-family: glitten;
+    font-size: 70px;
+    position: relative;
+    margin: 5rem auto; 
  }
- 
+
+
+
+
+
+
+/*font titol*/
+@font-face {
+    font-family: glitten;
+    src: url(../fonts/Glitten-Regular.woff) format('woff');
+    src: url(../fonts/Glitten-Regular.svg) format('svg');
+    src: url(../fonts/Glitten-Regular.woff2) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+ .actividades{
+    list-style:none;
+ }
  /*UF*/
- ul a{
+.actividades a{
     display: block;
     /*width: 320px;
     height: 320px;
@@ -24,9 +121,7 @@ h1{
     text-decoration: none;
     margin: 2rem;
     text-align: center;
-     
- }
- a{
+    top: 10rem;
     height: 350px;
     width: 350px;
     background-color: #d0bca0;
@@ -34,30 +129,38 @@ h1{
     box-shadow: 16px 14px 20px #0000008c;
     position: relative;
     overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     color: white;
 
+ 
  }
 
- a:hover{
+
+.actividades a:hover{
     background: #e6d6be;
 }
 
 button:active{
     background-color: #e6d6be;
+    
+}
+button{
+    margin-top: 25rem;
+
 }
 
 
 .vuelve{
     height: 1rem;
     width: 100%;
-
     text-decoration: none;
-    
 }
 
+button .vuelve{
+   
+}
  /*.practica:hover{
     background: rgb(252, 163, 235);
 }

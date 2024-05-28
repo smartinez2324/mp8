@@ -7,8 +7,8 @@ body, html{
  }
 
 img{
-    width: 50%;
-    height: 90%;
+    width: 30%;
+    height: 60%;
     position: relative;
     float: right;
     right: 20rem;
@@ -28,6 +28,7 @@ img{
 #titol{
     font-family: glitten;
     float: left;
+    font-size: 8rem;
 }
 
 /*UF*/
@@ -131,12 +132,12 @@ h1{
 }
 
 #linea{
-    width: 22rem;
+    width: 40rem;
     height: 0.25rem;
     position: relative;
     background: black;
-    top: 30rem;
-    left: 16rem;
+    top: 33.5rem;
+    left: 15rem;
 }
 
 hr{
@@ -144,6 +145,7 @@ hr{
     height: 0,5rem;
     background: rgb(0, 0, 0);
 }
+
 a{
     text-decoration: none;
     color: black;

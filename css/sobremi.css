@@ -2,6 +2,17 @@ body{
     background:#f7f2f0;
     font-family: Arial, Helvetica, sans-serif;
 }
+/*font titol*/
+@font-face {
+    font-family: glitten;
+    src: url(../fonts/Glitten-Regular.woff) format('woff');
+    src: url(../fonts/Glitten-Regular.svg) format('svg');
+    src: url(../fonts/Glitten-Regular.woff2) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 a{
     text-decoration: none;
@@ -68,7 +79,7 @@ nav{
 }
 
 h1{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: glitten;
     position: relative;
     top: 50px;
     font-size: 70px;
